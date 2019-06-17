@@ -70,7 +70,6 @@ $(function() {
           */
          it('changes visibility when the menu icon is clicked', () =>{
              //does the menu display when clicked
-             let menuIcon = document.querySelector('.menu-icon-link')
              $('.menu-icon-link').click();
              expect($('body').hasClass('menu-hidden')).toBe(false)
              //does it hide when clicked again
